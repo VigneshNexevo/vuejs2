@@ -8,6 +8,10 @@ const routes = [
     {
         path:"/category",
         component:()=>import("../components/Category.vue")
+    },
+    {
+        path:"/category/create",
+        component:()=>import("../components/Create.vue")
     }
 ];
 
